@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Register</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+    <!-- Your custom styles (optional) -->
+    <link href="css/register.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Start your project here-->
+
+    <section style="overflow: hidden; height: 100%;">
+      <div class="row">
+        <div class="col-md-4" style="height: 100vh; overflow-y: scroll;">
+          <div class="col-lg-10 mx-auto">
+            <div class="logo mt-7">
+              <img class="" src="./img/logo/logo.png" alt="" />
+            </div>
+
+            <div class="mt-10 mb-10">
+              <h3 class="login-to mb-5">
+                Create an <br />
+                account for free
+              </h3>
+              <form>
+                <div class="form-group">
+                  <input
+                    type="name"
+                    class="form-control input-height"
+                    name="name"
+                    id="exampleFormControlInput1"
+                    placeholder="Your Name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control input-height"
+                    name="email"
+                    id="exampleFormControlInput1"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="password"
+                    class="form-control input-height"
+                    name="password"
+                    id="exampleFormControlInput1"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+
+                <div class="mt-3 mb-3">
+                  <input type="checkbox" />
+                  <span class="agree-con">
+                    i agree to the
+                    <span class="text-default">Tetms of Service </span>
+                    and
+                    <span class="text-default">Privacy Policy</span>
+                  </span>
+                </div>
+
+                <button class="btn-block btn-new" type="submit" href="">
+                  Creat new account
+                </button>
+                <!-- <input type="submit" value="Send" class="input-submit"> -->
+              </form>
+
+              <p class="mt-3 already">
+                Already have an account?
+                <span class="text-default">
+                  <a class="text-default" href="index.html">Login here</a>
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 login-right-col">
+          <div class="flex-center flex-column">
+            <p class="annual-reg text-white text-center p-2">join devsnap</p>
+            <h3 class="effect text-white text-center p-2">
+              Join the leading agencies, <br />
+              networks and studios
+            </h3>
+          </div>
+
+          <!-- Grid column -->
+          <div
+            class="col-md-10 text-center text-md-right"
+            style="display: flex; position: absolute; bottom: 1%; right: 5%;"
+          >
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fa fa-facebook white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fa fa-twitter white-text mr-4"> </i>
+            </a>
+
+            <a class="fb-ic">
+              <i class="fa fa-instagram white-text mr-4"> </i>
+            </a>
+
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fa fa-linkedin white-text mr-4"> </i>
+            </a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .small-img {
+        margin: 45px;
+      }
+      .login-right-col {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.7)
+          ),
+          url('./img/gal2.jpg');
+        background-size: cover;
+        height: 100vh;
+      }
+
+      .annual-reg {
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .effect {
+        font-size: 40px;
+      }
+      .standard {
+        font-size: 16px;
+        letter-spacing: 3px;
+      }
+      .login-to {
+        font-size: 40px;
+      }
+      .mt-10 {
+        margin-top: 5rem;
+      }
+      .mb-10 {
+        margin-bottom: 5rem;
+      }
+      .mt-7 {
+        margin-top: 5rem;
+      }
+      .btn-new {
+        background: #000;
+        border-radius: 5px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 15px;
+        height: 50px;
+        cursor: pointer;
+      }
+      .input-height {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        border-radius: 2px;
+        font-size: 14px;
+      }
+      .agree-con {
+        font-size: 12px;
+      }
+
+      @media (max-width: 576px) {
+        .logo {
+          text-align: center;
+        }
+        .login-to {
+          text-align: center;
+        }
+        .already {
+          text-align: center;
+        }
+        .login-right-col {
+          display: none;
+        }
+      }
+    </style>
+
+    <!-- /Start your project here-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+  </body>
+</html>
